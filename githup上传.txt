@@ -1,0 +1,9 @@
+1.git init把这个文件夹变成Git可管理的仓库
+2.git status 查看状态
+3.git add . 提交到缓存区
+4.git status 查看状态
+5.git commit -m "解释"  把项目提交到仓库
+6.git remote add origin https://github.com/guyibang/TEST2.git   在Github上创建好Git仓库之后我们就可以和本地仓库进行关联了
+7.git push -u origin master————>把本地库的所有内容推送到远程仓库
+8.git pull --rebase origin master————>解决冲突，进行下拉合并
+9.git push origin master ————>再次进行上传
